@@ -1,0 +1,44 @@
+ttk::frame .f
+grid configure .f -column 0 -row 0 -sticky news
+grid columnconfigure . 0 -weight 1
+grid rowconfigure . 0 -weight 1
+listbox .f.lb
+.f.lb insert end "Argentina"
+.f.lb insert end "Australia"
+.f.lb insert end "Belgium"
+.f.lb insert end "Brazil"
+.f.lb insert end "Canada"
+.f.lb insert end "China"
+.f.lb insert end "Denmark"
+.f.lb insert end "Finland"
+.f.lb insert end "France"
+.f.lb insert end "Greece"
+.f.lb insert end "India"
+.f.lb insert end "Italy"
+.f.lb insert end "Japan"
+.f.lb insert end "Mexico"
+.f.lb insert end "Netherlands"
+.f.lb insert end "Norway"
+.f.lb insert end "Spain"
+.f.lb insert end "Sweden"
+.f.lb insert end "Switzerland"
+ttk::label .f.l1 -text "send to Country's Leader:"
+ttk::radiobutton .f.rb1 -text "Greeting card" -variable CppTk::variable0 -value "card"
+ttk::radiobutton .f.rb2 -text "Flowers" -variable CppTk::variable1 -value "flowers"
+ttk::radiobutton .f.rb3 -text "nastrygram" -variable CppTk::variable2 -value "nastygram"
+ttk::button .f.b1 -text "Send Gift"
+ttk::label .f.l2 -textvariable CppTk::variable3
+ttk::label .f.l3 -textvariable CppTk::variable4
+ttk::label .f.l4 -textvariable CppTk::variable5
+grid configure .f.lb -column 0 -row 0 -rowspan 6 -sticky news
+grid configure .f.l1 -column 1 -row 0 -padx 10 -pady 5
+grid configure .f.rb1 -column 1 -row 1 -sticky w -padx 20
+grid configure .f.rb2 -column 1 -row 2 -sticky w -padx 20
+grid configure .f.rb3 -column 1 -row 3 -sticky w -padx 20
+grid configure .f.b1 -column 2 -row 4 -sticky e
+grid configure .f.l2 -column 1 -row 5 -sticky n -padx 5 -pady 5
+grid configure .f.l3 -column 1 -row 6 -sticky we
+grid configure .f.l4 -column 0 -row 6 -columnspan 2 -sticky we
+grid columnconfigure .f 0 -weight 1
+grid rowconfigure .f 5 -weight 1
+bind .f.lb <<ListboxSelect>> { CppTk::callback0 }
