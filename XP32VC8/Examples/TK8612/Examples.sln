@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example1", "Example1.vcproj", "{7A1DF073-C428-4110-99F6-F961FC3A87D9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example2", "Example2.vcproj", "{7A1DF073-C428-4110-99F6-F961FC3A87D9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example3", "Example3.vcproj", "{AB0BAEAA-83EC-4818-B322-F04C34799D58}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example4", "Example4.vcproj", "{499E8E63-7618-4642-8BCC-4A7B7A9E802D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example5", "Example5.vcproj", "{092851BC-1E0F-4347-8417-8FFF124E29C1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example6", "Example6.vcproj", "{0C8526D4-8C61-47A7-B494-7EF2A3363D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A1DF073-C428-4110-99F6-F961FC3A87D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A1DF073-C428-4110-99F6-F961FC3A87D9}.Debug|Win32.Build.0 = Debug|Win32
+		{7A1DF073-C428-4110-99F6-F961FC3A87D9}.Release|Win32.ActiveCfg = Release|Win32
+		{7A1DF073-C428-4110-99F6-F961FC3A87D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
