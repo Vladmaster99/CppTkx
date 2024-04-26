@@ -1,0 +1,33 @@
+﻿Build started 25/04/2024 8:38:30 PM.
+     1>Project "G:\MyData\Adelaide24\CppTk32XP\XP32VC10\TKDocs\TK8519\StackOrder.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\StackOrder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\VS10\VC\bin\CL.exe /c /Ic:\Boost /IC:\Tcl\include /Ic:\tcl\lib /Ic:\CPPTK32 /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\StackOrder.cpp
+         StackOrder.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\StackOrder.exe.embed.manifest.res" Release\StackOrder_manifest.rc 
+       Link:
+         C:\VS10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\StackOrder.exe" /INCREMENTAL /NOLOGO c:\TCL\Lib\tcl85t.lib c:\TCL\Lib\tk85t.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\StackOrder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\MyData\Adelaide24\CppTk32XP\XP32VC10\TKDocs\TK8519\Release\StackOrder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\StackOrder.lib" /MACHINE:X86 Release\StackOrder.exe.embed.manifest.res
+         Release\cpptk.obj
+         Release\cpptkbase.obj
+         Release\StackOrder.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\StackOrder.exe.embed.manifest" /manifest Release\StackOrder.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\StackOrder.exe.embed.manifest.res" Release\StackOrder_manifest.rc 
+       LinkEmbedManifest:
+         C:\VS10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\StackOrder.exe" /INCREMENTAL /NOLOGO c:\TCL\Lib\tcl85t.lib c:\TCL\Lib\tk85t.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\StackOrder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\MyData\Adelaide24\CppTk32XP\XP32VC10\TKDocs\TK8519\Release\StackOrder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\StackOrder.lib" /MACHINE:X86 Release\StackOrder.exe.embed.manifest.res
+         Release\cpptk.obj
+         Release\cpptkbase.obj
+         Release\StackOrder.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         StackOrder.vcxproj -> G:\MyData\Adelaide24\CppTk32XP\XP32VC10\TKDocs\TK8519\Release\StackOrder.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\StackOrder.unsuccessfulbuild".
+         Touching "Release\StackOrder.lastbuildstate".
+     1>Done Building Project "G:\MyData\Adelaide24\CppTk32XP\XP32VC10\TKDocs\TK8519\StackOrder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
